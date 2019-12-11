@@ -1,0 +1,111 @@
+header{
+  background-color: #323467;
+  border-bottom: solid 5px orange;
+
+  .logoBrand{
+
+      h2{
+        color: white;
+        margin-left: 8px;
+        margin-top: -35px;
+      }
+      p{
+        color: gray;
+        font-size: 12px;
+        margin-top: -40px;
+        margin-left: 235px;
+        margin-right: 200px;
+        word-spacing: 1px;
+      }
+  }
+
+
+}
+.nav1{
+  background-color:#014083;
+  .navbar {padding-left: 1px;}
+  .navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+
+
+
+  }
+
+  .bg-light{
+    background-color:#014083 !important;
+
+  }
+
+}
+ section{
+   .sidebar{
+     margin-top: 100px;
+     margin-bottom: 100px;
+     .lista{
+       background-color:#014083;
+       width: 200px;
+       height: 150px;
+       margin: auto;
+       border-bottom: 10px solid orange;
+
+       h3{
+         text-align: center;
+         color: white;
+       }
+     }
+     .video{
+      @extend .lista
+     }
+     .foto{
+         @extend .lista
+     }
+   }
+ }
+footer{
+  margin-top: 50px;
+  background-color: #e6e6e6;
+  .katalozi{
+    width: 200px;
+    height: 50px;
+    background-color: #014083;
+    border-bottom: 5px solid orange;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+
+    h4{
+      text-align: center;
+      color: white;
+    }
+
+  }
+  .katalozi1{
+    @extend .katalozi
+  }
+  .katalozi2{
+    @extend .katalozi
+  }
+  .foll-us{
+    margin: 10px 0 10px 0px;
+    text-align: right;
+    h5{
+      text-align: center;
+      margin-left: 450px;
+      color: #595959;
+    }
+  }
+  .f-icon{
+    a{
+      padding: 10px;
+      margin-right: 5px;
+      &:first-child{
+        padding-left: 0;
+    }
+    }
+  }
+
+}
