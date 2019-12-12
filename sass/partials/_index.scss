@@ -66,15 +66,37 @@ header{
      }
    }
    .parallax{
-    background: url("https://drive.google.com/uc?id=1VXB7MG8-ViS4lVlK-K43sBUw773nsGZS") no-repeat;
+    background: url("https://drive.google.com/uc?id=1VXB7MG8-ViS4lVlK-K43sBUw773nsGZS") no-repeat 0 -400px;
     background-size: cover;
     background-attachment: fixed;
     height: 300px;
     width: 1110px;
-    z-index: 999999;
+    .doorText{
+      text-align: right;
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 22px;
+      margin-left: 110px;
+      font-weight: 600;
+    }
 
 
 
+   }
+   .parallax1{
+     background: url("https://drive.google.com/uc?id=10jYtEvS8zRDiC52et-jSAbrUVcF8uNeC");
+     background-size: cover;
+     background-attachment: fixed;
+     height: 300px;
+     width: 1110px;
+     .doorText1{
+       text-align: right;
+       color: white;
+       font-family: 'Open Sans', sans-serif;
+       font-size: 22px;
+       margin-right: 110px;
+       font-weight: 600;
+     }
    }
    .sidebar{
      margin-top: 100px;
