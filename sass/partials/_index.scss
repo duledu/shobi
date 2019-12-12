@@ -21,6 +21,11 @@ header{
 
 
 }
+
+.navbar-light .navbar-toggler{
+  border-color: white; 
+}
+
 .nav1{
   background-color:#014083;
   .navbar {padding-left: 1px;}
@@ -29,7 +34,9 @@ header{
     font-size: 14px;
     font-weight: bolder;
 
+.navbar-toggler-icon{
 
+}
 
 
   }
