@@ -23,7 +23,7 @@ header{
 }
 
 .navbar-light .navbar-toggler{
-  border-color: white; 
+  border-color: white;
 }
 
 .nav1{
@@ -64,6 +64,17 @@ header{
        font-family: 'Open Sans', sans-serif;
        font-weight: 300;
      }
+   }
+   .parallax{
+    background: url("https://drive.google.com/uc?id=1VXB7MG8-ViS4lVlK-K43sBUw773nsGZS") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+    width: 1110px;
+    z-index: 999999;
+
+
+
    }
    .sidebar{
      margin-top: 100px;
