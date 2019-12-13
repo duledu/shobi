@@ -1,0 +1,51 @@
+section{
+  .parallax3{
+    background: url("https://drive.google.com/uc?id=12JH8rfnkYgKR57GDo4ay5yfs8AHeJulf");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    width: 1920px;
+
+    .h3{
+      text-align: right;
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      position: absolute;
+      top:150px;
+
+      font-weight: 600;
+    }
+  }
+  .kontakt{
+  margin-bottom: 150px;
+
+
+  h1{
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  h2{
+    font-family: 'Open Sans', sans-serif;
+  }
+  h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    margin-bottom: 55px;
+  }
+  p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+  }
+  .email{
+    font-size: 20px;
+    color:blue;
+
+  }
+  .error{
+    color: red;
+  }
+
+}
+ }
