@@ -1,13 +1,18 @@
 section{
   .parallax3{
-    background: url("https://drive.google.com/uc?id=12JH8rfnkYgKR57GDo4ay5yfs8AHeJulf");
+    background: url("https://drive.google.com/uc?id=1RXqYW4IB61iNLBmmgXe5HvJlBmpqXN3E");
     background-size: cover;
     background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position:center;
     height: 500px;
     width: 1920px;
     .firstTitle{
       color: rgba(1, 64, 131, 0.5);
       font-family: 'Alfa Slab One', cursive;
+      text-align: right;
+      padding: 20px;
+
     }
 
     .h3{

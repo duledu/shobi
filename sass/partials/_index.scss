@@ -66,9 +66,11 @@ header{
      }
    }
    .parallax{
-    background: url("https://drive.google.com/uc?id=1VXB7MG8-ViS4lVlK-K43sBUw773nsGZS") no-repeat 0 -400px;
-    background-size: cover;
+    background: url("https://drive.google.com/uc?id=1VXB7MG8-ViS4lVlK-K43sBUw773nsGZS");
     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 300px;
     width: 1110px;
     .doorText{
@@ -85,8 +87,10 @@ header{
    }
    .parallax1{
      background: url("https://drive.google.com/uc?id=10jYtEvS8zRDiC52et-jSAbrUVcF8uNeC");
-     background-size: cover;
      background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
      height: 300px;
      width: 1110px;
      .doorText1{

@@ -1,2 +1,2 @@
 
-$("#contact-form").validate();
+$("#contact-form").length && $('#contact-form').validate();
