@@ -5,6 +5,10 @@ section{
     background-attachment: fixed;
     height: 500px;
     width: 1920px;
+    .firstTitle{
+      color: rgba(1, 64, 131, 0.5);
+      font-family: 'Alfa Slab One', cursive;
+    }
 
     .h3{
       text-align: right;
@@ -12,6 +16,7 @@ section{
       font-family: 'Open Sans', sans-serif;
       position: absolute;
       top:150px;
+
 
       font-weight: 600;
     }
@@ -25,6 +30,7 @@ section{
     font-family: 'Open Sans', sans-serif;
     margin-top: 10px;
     margin-bottom: 15px;
+
   }
   h2{
     font-family: 'Open Sans', sans-serif;
